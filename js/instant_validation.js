@@ -37,7 +37,7 @@ function instant_validation( obj, file_prefix ) {
   apex.debug('errorVisualization: ' + pluginAttributes.errorVisualization);  
   apex.debug('callbackFunction: ' + pluginAttributes.callbackFunction);    
   
-  apex.debug('Instant validation: validation has been started for item = '+triggeringItemId+'.');
+  apex.debug('Instant validation: validation has been started for item = '+triggeringItemId);
 
   let ajaxData = {
         x01: triggeringItemId,
