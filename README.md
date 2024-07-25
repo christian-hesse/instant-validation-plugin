@@ -5,11 +5,11 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
 
 ![instant_validation_demo](https://github.com/user-attachments/assets/b6b384dd-3bc5-41f8-86a6-2e7e63030824)
 <br /><br />
-Plugin Features
+<b>Plugin Features</b>
 <ul>
   <li>Validate individual page items on request</li>
   <li>Bind execution of validation to any browser event</li>
-  <li>Supports both client side (HTML5) and server side (PLSQL) validation</li>
+  <li>Supports both client side (HTML5) and server side (PL/SQL) validation</li>
   <li>Supports custom error rendering</li>
   <li>Triggers browser events <code>instant-validation-start</code>, <code>instant-validation-failure</code> and <code>instant-validation-success</code></li>
 </ul>
