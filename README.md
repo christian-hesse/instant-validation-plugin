@@ -12,4 +12,5 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
   <li>Supports both client side (HTML5) and server side (PL/SQL) validation</li>
   <li>Supports custom error rendering</li>
   <li>Triggers browser events <code>instant-validation-start</code>, <code>instant-validation-failure</code> and <code>instant-validation-success</code></li>
+  <li>Short-circuit evaluation of validations (first validation error is immediatelly returned to client)</li>
 </ul>
