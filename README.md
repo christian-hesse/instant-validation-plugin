@@ -62,7 +62,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
   <tr>
     <td><code>Items to Submit</code>:</td>
     <td>
-      <p>Enter a list of comma separated page items to be submitted. The triggering page item gets always submitted (default)</p>. 
+      <p>Enter a list of comma separated page items to be submitted. The triggering page item gets always submitted (default).</p>
       <p>If a validation expression or the validation condition for the tirggering page item depends on another page item enter the page item name(s) here.</p>
     </td>
   </tr>
