@@ -95,12 +95,9 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <p>Create a TRUE Action <code>Execute JavaScript Code</code> and provide the following code:</p>
     <pre>
 let validationResult = this.data.validationResult;
-
 apex.debug("Error rendering");
-
 $('#' + validationResult.item).addClass('hasError');
 $('#' + validationResult.item + '_error_placeholder').text(validationResult.message);
-
     </pre>
   </li>
 </ol>
