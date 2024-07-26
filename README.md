@@ -99,6 +99,16 @@ apex.debug("Error rendering");
 $('#' + validationResult.item).addClass('hasError');
 $('#' + validationResult.item + '_error_placeholder').text(validationResult.message);
     </pre>
+    <p>In case of validation errors the plug-in triggers the <code>instant-validation-failure</code> event and returns a JSON objec with the following structure:</p>
+    <pre>
+{
+    "validationResult":{
+        "item":"P31_LAST_NAME"
+       ,"passed":true
+      ,"message":"Validation passed successfully"
+    }
+}
+    </pre>
   </li>
 </ol>
 
