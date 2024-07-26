@@ -5,7 +5,9 @@
   <li><a href="#validation">Client side vs Server side validation</a></li>
   <li><a href="#installation">Installation</a></li>
   <li><a href="#usage">Plug-in Usage</a></li>  
-  <li><a href="#settings">Plug-in Settings</a></li>    
+  <li><a href="#settings">Plug-in Settings</a></li>   
+  <li><a href="#custom_error_rendering">Implementing custom error rendering</a></li>   
+  
 </ul>
 <p id="intro"><b>Introduction</b></p>
 Validate APEX page items instantly using this dynamic action plug-in. Bind the plug-in for example on an "onChange" event of a page item and immediatelly get a feedback if the user input for this page item is valid.
@@ -80,6 +82,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     </td>
   </tr>
 </table>
+<br /><br />
 <p id="custom_error_rendering"><b>Implementing custom error rendering</b></p>
 <p>The plug-in defines the following settings:</p>
 
