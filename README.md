@@ -15,6 +15,9 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
   <li>Short-circuit evaluation of validations (first validation error is immediatelly returned to client)</li>
 </ul>
 <br /><br />
+<p><b>Installation</b></p>
+<p>Download the plugin import file <code>dynamic_action_plugin_org_christianhesse_instant_validation.sql</code>. Go to <code>Shared Components</code> > <code>Plug-ins</code>, choose <code>Import</code> and follow the instructions in the wizzard.</p>
+<br /><br />
 <p><b>Client side vs Server side validation</b></p>
 <p>Some validations in APEX are implemented as <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation">HTML5 contraint validations</a>. A typical example is the <code>Value Required</code> flag you can set for a page item in the APEX builder:</p>
 <img src="img/value_required_apex_builder.png" alt="Value required flag in APEX Builder" />
