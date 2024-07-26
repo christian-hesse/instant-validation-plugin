@@ -45,6 +45,10 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <p>Create a <code>Dynamic Action</code> and bind it to the item's <code>Change</code> or <code>Lose Focus</code> event.</p>
     <img src="img/Dynamic_Action_Definition.png" alt="Dynamic Action Definition" />
   </li>
+  <li>
+    <p>Define a <code>TRUE</code> Action and choose <code>Instant Item Validation [Plug-in]</code> from the available Actions.</p>
+    <img src="img/Action_Definition.png" alt="TRUE Action Definition" />
+  </li>
 </ol>
 
 
