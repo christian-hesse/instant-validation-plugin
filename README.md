@@ -85,7 +85,12 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
 <br /><br />
 <p id="custom_error_rendering"><b>Implementing custom error rendering</b></p>
 <p>In the following example a custom error rendering routine is created to change the <code>background-color</code> of a page item with failed validation to red.</p>
-
+<ol>
+  <li>
+    <p>Create a <code>Dynamic Action</code> and select <code>Instant Validation Failure [Instant Item Validation]</code> as Event</p>.
+    <p>To implement a page wide error rendering routine choose <code>JavaScript Expression</code> as Selection Type and enter <code>document</code> as expression. In case you want to create an error rendering indiviual for a page item select <code>Item(s)</code> as Selection Type and choose the item.</p>
+  </li>
+</ol>
 
 
 
