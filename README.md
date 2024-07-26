@@ -103,13 +103,12 @@ $('#' + validationResult.item + '_error_placeholder').text(validationResult.mess
     <pre>
 {
     "validationResult":{
-        "item":<item name>
+        "item":\<item name\>
        ,"validationType":<name of validation type>
        ,"passed":<true|false>
       ,"message":<validation error message>
     }
 }
-      
     </pre>
   </li>
 </ol>
