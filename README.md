@@ -24,11 +24,11 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
 </ul>
 <br /><br />
 <p id="validation"><b>Client side vs Server side validation</b></p>
-<p>Some validations in APEX are implemented as <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation">HTML5 contraint validations</a>. A typical example is the <code>Value Required</code> flag you can set for a page item in the APEX builder:</p>
+<p>Some validations in APEX are implemented as <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation">HTML5 constraint validations</a>. A typical example is the <code>Value Required</code> flag you can set for a page item in the APEX builder:</p>
 <img src="img/value_required_apex_builder.png" alt="Value required flag in APEX Builder" />
 <p>For the HTML input element APEX sets the <code>required</code> attribute:</p>
 <img src="img/required_attribute_input.png" alt="Value required flag in HTML code" />
-<p>From a user perspective HTML5 contraint validations brings performance improvements since no server round trip is required to detect an input violation. However, for <b>security reasons</b> it is not recommended to rely on client side validations. An attacker could easly bypass client side validation e.g. by removing the <code>required</code> attribute in the HTML document.</p>
+<p>From a user perspective HTML5 constraint validations brings performance improvements since no server round trip is required to detect an input violation. However, for <b>security reasons</b> it is not recommended to rely on client side validations. An attacker could easly bypass client side validation e.g. by removing the <code>required</code> attribute in the HTML document.</p>
 <p>APEX provides security features to both benefit from client side validation and prevent manipulation or bypassing of validation rules. Each client side validation is executed on the server side as well. For the <code>Value Required</code> example a column <code>Is Required</code> exists which can be queried via <code>apex_application_page_items</code> view.
 <br /><br />
 <p id="installation"><b>Installation</b></p>
@@ -36,9 +36,14 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
 <br /><br />
 <p id="usage"><b>Plug-in Usage</b></p>
 <ol>
-  <li><p>Define a validation for a page item: In this example restrict the input for <code>P31_LAST_NAME</code> to alphabetic characters.</p>
-      <img src="img/page_item_with_validation.png" alt="Page Item with Validation" />
-      <img src="img/validation_definition.png" alt="Validation Definition" />
+  <li>
+    <p>Define a validation for a page item: In this example restrict the input for <code>P31_LAST_NAME</code> to alphabetic characters.</p>
+    <img src="img/page_item_with_validation.png" alt="Page Item with Validation" />
+    <img src="img/validation_definition.png" alt="Validation Definition" />
+  </li>
+  <li>
+    <p>Create a <code>Dynamic Action</code> and bind it to the item's <code>Change</code> or <code>Lose Focus</code> event.</p>
+    <img src="img/Dynamic_Action_Definition.png" alt="Dynamic Action Definition" />
   </li>
 </ol>
 
