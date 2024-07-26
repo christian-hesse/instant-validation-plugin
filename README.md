@@ -12,7 +12,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
 
 <img src="img/plugin_demo.gif" alt="plug-in Demo" />
 <br /><br />
-<p id="features"><b>plug-in Features</b></p>
+<p id="features"><b>Plug-in Features</b></p>
 <ul>
   <li>Validate individual page items on request</li>
   <li>Bind execution of validation to any browser event</li>
@@ -31,8 +31,14 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
 <p>APEX provides security features to both benefit from client side validation and prevent manipulation or bypassing of validation rules. Each client side validation is executed on the server side as well. For the <code>Value Required</code> example a column <code>Is Required</code> exists which can be queried via <code>apex_application_page_items</code> view.
 <br /><br />
 <p id="installation"><b>Installation</b></p>
-<p>Download the plug-in import file <code>dynamic_action_plug-in_org_christianhesse_instant_validation.sql</code>. Go to <code>Shared Components</code> > <code>Plug-ins</code>, choose <code>Import</code> and follow the instructions in the wizzard.</p>
+<p>Download the plug-in import file <code>dynamic_action_plug-in_org_christianhesse_instant_validation.sql</code>. Go to <code>Shared Components</code> > <code>Plug-ins</code> and choose <code>Import</code>. Follow the instructions in the wizzard.</p>
 <br /><br />
 <p id="usage"><b>Plug-in Usage</b></p>
+<ol>
+  <li><p>Define a validation for a page item:</p>
+      <img src="img/page_item_with_validation.png" alt="Page Item with Validation" />
+      <img src="img/validation_definition.png" alt="Validation Definition" />
+  </li>
+</ol>
 
 
