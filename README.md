@@ -132,7 +132,7 @@ $('#' + validationResult.item + '_error_placeholder').text('');
     </pre>
   </li>
   <li>
-    <p>Test the plug-in</p>
+     <p>Save and run the page to test the plug-in.</p>
     <img src="img/Demo_Custom_Error_Rendering.gif" alt="plug-in Demo Custom Error Rendering" />
   </li>
 </ol>
