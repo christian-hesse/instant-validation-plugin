@@ -78,7 +78,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <td><code>Render Error</code>:</td>
     <td>
       <p>If true, a validation error will be displayed according to standard APEX validation error rendering. If false, no error rendering will be displayed.</p>
-      <p>Use false if you want to implement custom error rendering using the JavaScript plugin events <code>validation-success</code> and <code>validation-failure</code>. You can bind a Dynamic Action to each plugin event to excecute custom JavaScript code for validation error rendering. See <a href="#custom_error_rendering">here</a> for more details.</p>
+      <p>Use false if you want to implement custom error rendering using the JavaScript plugin events <code>instant-validation-success</code> and <code>instant-validation-failure</code>. You can bind a Dynamic Action to each plugin event to excecute custom JavaScript code for validation error rendering. See <a href="#custom_error_rendering">here</a> for more details.</p>
     </td>
   </tr>
 </table>
