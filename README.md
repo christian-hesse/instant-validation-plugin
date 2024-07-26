@@ -62,8 +62,8 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
   <tr>
     <td><code>Items to Submit</code>:</td>
     <td>
-      <p>Enter a list of comma separated page items to be submitted. The triggering page item gets always submitted (default).</p>
-      <p>If a validation expression or the validation condition for the tirggering page item depends on another page item enter the page item name(s) here.</p>
+      <p>Select or enter a list of comma separated page items to be submitted. The triggering page item gets always submitted (default).</p>
+      <p>If a validation expression or the validation condition for the triggering page item depends on other page item(s) enter the page item name(s) here.</p>
     </td>
   </tr>
   <tr>
@@ -76,10 +76,13 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <td><code>Render Error</code>:</td>
     <td>
       <p>If true, a validation error will be displayed according to standard APEX validation error rendering. If false, no error rendering will be displayed.</p>
-      <p>Use false if you want to implement your own error rendering using the JavaScript plugin events validation-success and validation-failure. You can bind a Dynamic Action to each plugin event to excecute custom JavaScript code for validation error rendering.</p>
+      <p>Use false if you want to implement custom error rendering using the JavaScript plugin events <code>validation-success</code> and <code>validation-failure</code>. You can bind a Dynamic Action to each plugin event to excecute custom JavaScript code for validation error rendering. See <a href="#custom_error_rendering">here</a> for more details.</p>
     </td>
   </tr>
 </table>
+<p id="custom_error_rendering"><b>Implementing custom error rendering</b></p>
+<p>The plug-in defines the following settings:</p>
+
 
 
 
