@@ -53,7 +53,8 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <img src="img/Action_Definition.png" alt="TRUE Action Definition" />
   </li>
   <li>
-    <p>Save and run the page to test the plug-in. Enter an ivalid value and trigger the <code>Change</code> or <code>Lose Focus</code> event to get immediate validation result.</p>
+    <p>Save and run the page to test the plug-in.</p>
+    <img src="img/Demo_Usage.gif" alt="Demo Usage" />    
   </li>
 </ol>
 <br /><br />
