@@ -130,6 +130,10 @@ $('#' + validationResult.item).removeClass('hasError');
 $('#' + validationResult.item + '_error_placeholder').text('');
     </pre>
   </li>
+  <li>
+    <p>Result:</p>
+    <img src="img/Demo_Custom_Error_Rendering.gif" alt="plug-in Demo Custom Error Rendering" />
+  </li>
 </ol>
 
 
