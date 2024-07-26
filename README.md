@@ -5,7 +5,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
 
 <img src="img/plugin_demo.gif" alt="Plugin Demo" />
 <br /><br />
-<b>Plugin Features</b>
+<p><b>Plugin Features</b></p>
 <ul>
   <li>Validate individual page items on request</li>
   <li>Bind execution of validation to any browser event</li>
