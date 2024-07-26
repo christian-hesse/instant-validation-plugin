@@ -57,11 +57,11 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
 <p id="settings"><b>Plug-in Settings</b></p>
 <p>The plug-in defines the following settings:</p>
 <img src="img/plugin_settings.png" alt="Plug-in Settings" />
-<ul>
-  <li><code>Items to Submit</code>:  </li>
-  <li><code>Show Validation Progress Indicator</code>:  </li>
-  <li><code>Render Error</code>:  </li>
-</ul>
+<table>
+  <tr><td><code>Items to Submit</code>:</td><td>Enter a list of comma separated page items to be submitted. The triggering page item gets always submitted (default). </td></tr>
+  <tr><td><code>Show Validation Progress Indicator</code>:</td><td>Enter a list of comma separated page items to be submitted. The triggering page item gets always submitted (default). </td></tr>
+  <tr><td><code>Render Error</code>:</td><td>Enter a list of comma separated page items to be submitted. The triggering page item gets always submitted (default). </td></tr>
+</table>
 
 
 
