@@ -99,7 +99,7 @@ apex.debug("Error rendering");
 $('#' + validationResult.item).addClass('hasError');
 $('#' + validationResult.item + '_error_placeholder').text(validationResult.message);
     </pre>
-    <p>In case of validation errors the plug-in triggers the <code>instant-validation-failure</code> event and returns a JSON objec with the following structure:</p>
+    <p>In case of validation errors the plug-in triggers the <code>instant-validation-failure</code> event and returns a JSON object with the following structure:</p>
     <pre>
 {
     "validationResult":{
@@ -117,6 +117,17 @@ $('#' + validationResult.item + '_error_placeholder').text(validationResult.mess
 .hasError {
     background-color: #eea29a;
 }
+    </pre>
+  </li>
+  <li>
+    <p>Create a another <code>Dynamic Action</code> and name it "Clear Custom Validation Error".</p> 
+    <p>Select <code>Instant Validation Success [Instant Item Validation]</code> as Event.</p>
+    <p>Create a TRUE Action <code>Execute JavaScript Code</code> and provide the following code to clear the error (if present):</p>
+    <pre>
+let validationResult = this.data.validationResult;
+apex.debug("Error Clearing");
+$('#' + validationResult.item).removeClass('hasError');
+$('#' + validationResult.item + '_error_placeholder').text('');
     </pre>
   </li>
 </ol>
