@@ -4,6 +4,7 @@
   <li><a href="#features">Plug-in Features</a></li>
   <li><a href="#validation">Client side vs Server side validation</a></li>
   <li><a href="#installation">Installation</a></li>
+  <li><a href="#usage">Plug-in Usage</a></li>  
 </ul>
 <p id="intro"><b>Introduction</b></p>
 Validate APEX page items instantly using this dynamic action plug-in. Bind the plug-in for example on an "onChange" event of a page item and immediatelly get a feedback if the user input for this page item is valid.
@@ -35,7 +36,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
 <br /><br />
 <p id="usage"><b>Plug-in Usage</b></p>
 <ol>
-  <li><p>Define a validation for a page item:</p>
+  <li><p>Define a validation for a page item: In this example restrict the input for <code>P31_LAST_NAME</code> to alphabetic characters.</p>
       <img src="img/page_item_with_validation.png" alt="Page Item with Validation" />
       <img src="img/validation_definition.png" alt="Validation Definition" />
   </li>
