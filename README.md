@@ -1,4 +1,4 @@
-# instant-validation-plug-in
+# instant-validation-plugin
 <ul>
   <li><a href="#intro">Introduction</a></li>
   <li><a href="#features">Plug-in Features</a></li>
