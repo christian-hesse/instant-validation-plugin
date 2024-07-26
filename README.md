@@ -121,7 +121,7 @@ $('#' + validationResult.item + '_error_placeholder').text(validationResult.mess
   </li>
   <li>
     <p>Create a another <code>Dynamic Action</code> and name it "Clear Custom Validation Error".</p> 
-    <p>Select <code>Instant Validation Success [Instant Item Validation]</code> as Event.</p>
+    <p>Select <code>Instant Validation Success [Instant Item Validation]</code> as Event and use the same Selection Type as entered in Step 1.</p>
     <p>Create a TRUE Action <code>Execute JavaScript Code</code> and provide the following code to clear the error (if present):</p>
     <pre>
 let validationResult = this.data.validationResult;
