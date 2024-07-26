@@ -49,6 +49,14 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <p>Define a <code>TRUE</code> Action and choose <code>Instant Item Validation [Plug-in]</code> from the available Actions.</p>
     <img src="img/Action_Definition.png" alt="TRUE Action Definition" />
   </li>
+  <li>
+    <p>Save and run the page to test the plug-in. Enter an ivalid value and trigger the <code>Change</code> or <code>Lose Focus</code> event to get immediate validation result.</p>
+  </li>
 </ol>
+<br /><br />
+<p id="settings"><b>Plug-in Settings</b></p>
+<p>The plug-in defines the following settings:</p>
+<img src="img/plugin_settings.png" alt="Plug-in Settings" />
+
 
 
