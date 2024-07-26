@@ -20,5 +20,6 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
 <img src="img/value_required_apex_builder.png" alt="Value required flag in APEX Builder" />
 <p>For the HTML input element APEX sets the <code>required</code> attribute:</p>
 <img src="img/required_attribute_input.png" alt="Value required flag in HTML code" />
+<p>From a user perspective HTML5 contraint validations brings performance improvements since no server round trip is required to detect an input violation. However, for <b>security reasons</b> it is not recommened to rely on client side validations.</p>An attacker could easly bypass clients side validation by removing e.g. the <code>required</code> attribute in the HTML document.
 
 
