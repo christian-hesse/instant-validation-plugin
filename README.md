@@ -15,10 +15,10 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
   <li>Short-circuit evaluation of validations (first validation error is immediatelly returned to client)</li>
 </ul>
 <br /><br />
-<b>Client side vs serve side validation</b>
-Some validations in APEX are implemented as HTML5 validations contraints. A typical example is the <code>Value Required</code> flag you can set for a page item in the APEX builder:
+<p><b>Client side vs serve side validation</b></p>
+<p>Some validations in APEX are implemented as HTML5 validations contraints. A typical example is the <code>Value Required</code> flag you can set for a page item in the APEX builder:</p>
 ![image](https://github.com/user-attachments/assets/e87601c9-083a-4014-9415-8755eb87c1b3)
-For the HTML input element APEX sets the <code>required</code> attribute:
-![image](https://github.com/user-attachments/assets/604f0058-404f-42dd-bcf6-e289102efd20)
+<p>For the HTML input element APEX sets the <code>required</code> attribute:</p>
+![required_attribute_input](https://github.com/user-attachments/assets/517b8009-87b7-4ea2-833c-9c0e2a95c8b2)
 
 
