@@ -103,10 +103,10 @@ $('#' + validationResult.item + '_error_placeholder').text(validationResult.mess
     <pre>
 {
     "validationResult":{
-        "item":\<item name\>
-       ,"validationType":<name of validation type>
-       ,"passed":<true|false>
-      ,"message":<validation error message>
+        "item":"P31_LAST_NAME"
+       ,"validationType":"ITEM_REQUIRED"
+       ,"passed":false
+      ,"message":"Last Name must have some value"
     }
 }
     </pre>
