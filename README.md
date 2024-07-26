@@ -21,6 +21,6 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
 <p>For the HTML input element APEX sets the <code>required</code> attribute:</p>
 <img src="img/required_attribute_input.png" alt="Value required flag in HTML code" />
 <p>From a user perspective HTML5 contraint validations brings performance improvements since no server round trip is required to detect an input violation. However, for <b>security reasons</b> it is not recommended to rely on client side validations. An attacker could easly bypass client side validation e.g. by removing the <code>required</code> attribute in the HTML document.</p>
-<p>APEX provides security features to both benefit from client side validation and and prevent manupulation or bypassing of validation rules. Each client side validation is executed on the server side as well. For the <code>Value Required</code> example a column <code>Is Required</code> exists with can be queries via <code>apex_application_page_items</code> view.
+<p>APEX provides security features to both benefit from client side validation and and prevent manupulation or bypassing of validation rules. Each client side validation is executed on the server side as well. For the <code>Value Required</code> example a column <code>Is Required</code> exists which can be queried via <code>apex_application_page_items</code> view.
 
 
