@@ -91,7 +91,17 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <img src="img/Custom_error_rendering_DA.png" alt="Dynamic Action for error rendering" />
     <p>Select <code>Instant Validation Failure [Instant Item Validation]</code> as Event.</p>
     <p>To implement a page wide error rendering routine choose <code>JavaScript Expression</code> as Selection Type and enter <code>document</code> as expression. In case you want to create an error rendering indiviual for a page item select <code>Item(s)</code> as Selection Type and choose the item.</p>
-    <img src="img/Custom_error_rendering_definition.png" alt="Dynamic Action Definition for error rendering" />    
+    <img src="img/Custom_error_rendering_definition.png" alt="Dynamic Action Definition for error rendering" />
+    <p>Create a TRUE Action <code>Execute JavaScript Code</code> and provide the following code:</p>
+    <pre>
+let validationResult = this.data.validationResult;
+
+apex.debug("Error rendering");
+
+$('#' + validationResult.item).addClass('hasError');
+$('#' + validationResult.item + '_error_placeholder').text(validationResult.message);
+
+    </pre>
   </li>
 </ol>
 
