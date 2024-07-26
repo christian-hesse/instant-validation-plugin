@@ -110,6 +110,7 @@ $('#' + validationResult.item + '_error_placeholder').text(validationResult.mess
     }
 }
     </pre>
+    <p>To access the returned JSON object from the Dynamic Action use <code>this.data.validationResult</code>. The triggering item id can be determined with <code>this.data.validationResult.item</code> and the error message with <code>this.data.validationResult.message</code></p>
   </li>
 </ol>
 
