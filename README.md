@@ -114,6 +114,8 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <td>Triggered in case there is an error during the AJAX call. Indicates that the plug-in has finished execution.</td>
   </tr>
 </table>
+<p>All events can be selected as Component Events for Dynamic Actions.</p>
+<img src="img/plugin_events.png" alt="Plug-in Events" />
 <br /><br />
 <p id="custom_error_rendering"><b>Implementing Custom Error Rendering</b></p>
 <p>In the following example a custom error rendering routine is created to change the <code>background-color</code> of a page item with failed validation to red.</p>
