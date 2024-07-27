@@ -84,6 +84,36 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
   </tr>
 </table>
 <br /><br />
+<p id="events"><b>Plug-in Events</b></p>
+<p>The plug-in triggers the following browser events:</p>
+<table>
+  <th>
+    <td>Event Name in APEX Builder</td>
+    <td>Browser Event</td>
+    <td>Description</td>
+  </th>
+  <tr>
+    <td>Instant Validation Start</td>
+    <td><code>instant-validation-start</code></td>
+    <td>Triggered when plug-in starts validation. Useful to check if validation is in progress (for longer running validations).</td>
+  </tr>
+  <tr>
+    <td>Instant Validation Success</td>
+    <td><code>instant-validation-success</code></td>
+    <td>Triggered when all validations associated with the triggering page item pass. Indicates that the plug-in has finished execution.</td>
+  </tr>
+  <tr>
+    <td>Instant Validation Failure</td>
+    <td><code>instant-validation-success</code></td>
+    <td>Triggered when one validation associated with the triggering page item fails. The event is triggered immediatelly after the first failed validation (short curcuit evaluation). Indicates that the plug-in has finished execution.</td>
+  </tr>
+  <tr>
+    <td>Instant Validation Error</td>
+    <td><code>instant-validation-error</code></td>
+    <td>Triggered in case there is an error during the AJAX call. Indicates that the plug-in has finished execution.</td>
+  </tr>
+</table>
+<br /><br />
 <p id="custom_error_rendering"><b>Implementing custom error rendering</b></p>
 <p>In the following example a custom error rendering routine is created to change the <code>background-color</code> of a page item with failed validation to red.</p>
 <ol>
