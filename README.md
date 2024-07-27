@@ -106,7 +106,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
   <tr>
     <td>Instant Validation Failure</td>
     <td><code>instant-validation-failure</code></td>
-    <td>Triggered when one validation associated with the triggering page item fails. The event is triggered immediatelly after the first failed validation (short curcuit evaluation). Indicates that the plug-in has finished execution.</td>
+    <td>Triggered when one validation associated with the triggering page item fails. The event is triggered immediatelly after the first failed validation (short circuit evaluation). Indicates that the plug-in has finished execution.</td>
   </tr>
   <tr>
     <td>Instant Validation Error</td>
