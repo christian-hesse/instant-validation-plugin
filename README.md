@@ -2,12 +2,12 @@
 <ul>
   <li><a href="#intro">Introduction</a></li>
   <li><a href="#features">Plug-in Features</a></li>
-  <li><a href="#validation">Client side vs Server side validation</a></li>
+  <li><a href="#validation">Client Side vs Server Side Validation</a></li>
   <li><a href="#installation">Installation</a></li>
   <li><a href="#usage">Plug-in Usage</a></li>  
   <li><a href="#settings">Plug-in Settings</a></li>   
   <li><a href="#events">Plug-in Browser Events</a></li>   
-  <li><a href="#custom_error_rendering">Implementing custom error rendering</a></li>   
+  <li><a href="#custom_error_rendering">Implementing Custom Error Rendering</a></li>   
   
 </ul>
 <p id="intro"><b>Introduction</b></p>
