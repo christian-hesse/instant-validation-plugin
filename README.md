@@ -6,6 +6,7 @@
   <li><a href="#installation">Installation</a></li>
   <li><a href="#usage">Plug-in Usage</a></li>  
   <li><a href="#settings">Plug-in Settings</a></li>   
+  <li><a href="#events">Plug-in Browser Events</a></li>   
   <li><a href="#custom_error_rendering">Implementing custom error rendering</a></li>   
   
 </ul>
