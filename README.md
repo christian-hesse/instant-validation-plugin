@@ -88,11 +88,11 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
 <p id="events"><b>Plug-in Events</b></p>
 <p>The plug-in triggers the following browser events:</p>
 <table>
-  <th>
-    <td>Event Name in APEX Builder</td>
-    <td>Browser Event</td>
-    <td>Description</td>
-  </th>
+  <tr>
+    <th>Event Name in APEX Builder</th>
+    <th>Browser Event</th>
+    <th>Description</th>
+  </tr>
   <tr>
     <td>Instant Validation Start</td>
     <td><code>instant-validation-start</code></td>
