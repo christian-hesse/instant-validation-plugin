@@ -27,7 +27,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
   <li>Short-circuit evaluation of validations (first validation error is immediatelly returned to client)</li>
 </ul>
 <br /><br />
-<p id="validation"><b>Client side vs Server side validation</b></p>
+<p id="validation"><b>Client Side vs Server Side Validation</b></p>
 <p>Some validations in APEX are implemented as <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation">HTML5 constraint validations</a>. A typical example is the <code>Value Required</code> flag you can set for a page item in the APEX builder:</p>
 <img src="img/value_required_apex_builder.png" alt="Value required flag in APEX Builder" />
 <p>For the HTML input element APEX sets the <code>required</code> attribute:</p>
@@ -115,7 +115,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
   </tr>
 </table>
 <br /><br />
-<p id="custom_error_rendering"><b>Implementing custom error rendering</b></p>
+<p id="custom_error_rendering"><b>Implementing Custom Error Rendering</b></p>
 <p>In the following example a custom error rendering routine is created to change the <code>background-color</code> of a page item with failed validation to red.</p>
 <ol>
   <li>
