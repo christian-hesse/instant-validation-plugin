@@ -2,6 +2,7 @@
 <ul>
   <li><a href="#intro">Introduction</a></li>
   <li><a href="#features">Plug-in Features</a></li>
+  <li><a href="#supported-validations">Supported Validations</a></li>
   <li><a href="#validation">Client Side vs Server Side Validation</a></li>
   <li><a href="#installation">Installation</a></li>
   <li><a href="#usage">Plug-in Usage</a></li>  
