@@ -88,7 +88,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <td>Item is numeric</td>
   </tr>
   <tr>
-    <td><code>ITEM_IS_DATE</code></td>
+    <td><code>ITEM_IS_DATE<sup>4)</sup></code></td>
     <td>Item is a valid date</td>
   </tr>
   <tr>
@@ -124,8 +124,12 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <td>Item matches Regular Expression</td>
   </tr>
 </table>
-<p>1) - <code>ITEM_REQUIRED supports HTML5 client side validation.</code></p>
-<p>1) - <code>MIN and MAX values (if provided) support HTML5 client side validation.</code></p>
+<p>Notes:</p> 
+<p><sup>1)</sup> - <code>ITEM_REQUIRED</code> supports HTML5 client side validation.</p>
+<p><sup>2)</sup> - MIN and MAX values (if provided) support HTML5 client side validation.</p>
+<p><sup>3)</sup> - The error text returned by the PL/SQL function body is returned by the plug-in in JSON obect (<code>validationResult.message</code>) and if error rendering is turned on for the plug-in will be shown as error message.</p>
+<p><sup>4)</sup> - The date validity is checked with the 'Application Date Format' (see Shared Components -> Application Definition Attributes -> Globalization) or if nothing specified with the NLS_DATE_FORMAT setting of the database session.</p>
+
 <br /><br />
 <p id="validation"><b>Client Side vs Server Side Validation</b></p>
 <p>Some validations in APEX are implemented as <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation">HTML5 constraint validations</a>. A typical example is the <code>Value Required</code> flag you can set for a page item in the APEX builder:</p>
