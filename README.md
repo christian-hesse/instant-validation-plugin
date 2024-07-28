@@ -71,7 +71,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <td></td>
   </tr>
   <tr>
-    <td>ITEM_IS_NOT_ZERO</code></td>
+    <td><code>ITEM_IS_NOT_ZERO</code></td>
     <td>Item is NOT zero</td>
     <td></td>
   </tr>
@@ -101,7 +101,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <td></td>
   </tr>
   <tr>
-    <td>ITEM_IN_VALIDATION_EQ_STRING2</code></td>
+    <td><code>ITEM_IN_VALIDATION_EQ_STRING2</code></td>
     <td>Item = Value</td>
     <td></td>
   </tr>
