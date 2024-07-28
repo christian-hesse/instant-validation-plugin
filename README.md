@@ -12,7 +12,7 @@
   
 </ul>
 <p id="intro"><b>Introduction</b></p>
-<p>Validate Oracle APEX page items instantly using this dynamic action plug-in. Bind the plug-in for example on an "onChange" event of a page item and immediatelly get a feedback if the user input for this page item is valid.</p>
+<p>Validate Oracle APEX page items instantly using this dynamic action plug-in. Bind the plug-in for example on an "onChange" event of a page item and immediately get a feedback if the user input for this page item is valid.</p>
 <p>
 APEX validates page items in a submit process. If the page setting for <b>"Reload on Submit"</b> is set to "Only for Success" an AJAX call is performed prior to the acutal page submit. All validations for all page items are executed. In case of validation errors the error messages will be shown and the page is not submitted. With the standard APEX behavoir for validations there is no way to perform validations for individual page items and for events other then submit. This plug-in aims to close the gap. Bind it on any event for a page item and let the validations associated with this page item be executed whenever the event is triggered. In case of errors the item will be highlighted with an error message in the item's error placeholder (standard APEX error rendering) or a custom error handling can be implemented that is triggered whenever the plug-in fires the events <code>instant-validation-failure</code> or <code>instant-validation-success</code>.
 </p>
@@ -25,7 +25,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
   <li>Supports both client side (HTML5) and server side (PL/SQL) validation</li>
   <li>Supports custom error rendering</li>
   <li>Triggers browser events <code>instant-validation-start</code>, <code>instant-validation-failure</code> and <code>instant-validation-success</code></li>
-  <li>Short-circuit evaluation of validations (first validation error is immediatelly returned to client)</li>
+  <li>Short-circuit evaluation of validations (first validation error is  returned to client)</li>
 </ul>
 <br /><br />
 <p id="supported-validations"><b>Supported Validations</b></p>
@@ -210,7 +210,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
   <tr>
     <td>Instant Validation Failure</td>
     <td><code>instant-validation-failure</code></td>
-    <td>Triggered when one validation associated with the triggering page item fails. The event is triggered immediatelly after the first failed validation (short circuit evaluation). Indicates that the plug-in has finished execution.</td>
+    <td>Triggered when one validation associated with the triggering page item fails. The event is triggered  after the first failed validation (short circuit evaluation). Indicates that the plug-in has finished execution.</td>
   </tr>
   <tr>
     <td>Instant Validation Error</td>
