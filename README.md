@@ -140,7 +140,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
 <p>APEX provides security features to both benefit from client side validation and prevent manipulation or bypassing of validation rules. Each client side validation is executed on the server side as well. For the <code>Value Required</code> example a column <code>Is Required</code> exists which can be queried via <code>apex_application_page_items</code> view. The plug-in ensures that client side validations are also executed on the server side!
 <br /><br />
 <p id="installation"><b>Installation</b></p>
-<p>Download the plug-in import file <a href="src/dynamic_action_plugin_org_christianhesse_instant_validation.sql"><code>dynamic_action_plug-in_org_christianhesse_instant_validation.sql</code></a>. Go to <code>Shared Components</code> > <code>Plug-ins</code> and choose <code>Import</code>. Follow the instructions in the wizzard.</p>
+<p>Download the plug-in import file <a href="src/dynamic_action_plugin_org_christianhesse_instant_validation.sql"><code>dynamic_action_plug-in_org_christianhesse_instant_validation.sql</code></a>. Go to <code>Shared Components</code> > <code>Plug-ins</code> and choose <code>Import</code>. Select the file and follow the instructions in the wizzard.</p>
 <br /><br />
 <p id="usage"><b>Plug-in Usage</b></p>
 <ol>
