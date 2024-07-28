@@ -92,10 +92,6 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <td>Item is a valid date</td>
   </tr>
   <tr>
-    <td><code>ITEM_IS_TIMESTAMP</code></td>
-    <td>Item is a valid timestamp</td>
-  </tr>
-  <tr>
     <td><code>ITEM_IN_VALIDATION_EQ_STRING2</code></td>
     <td>Item = Value</td>
   </tr>
