@@ -29,6 +29,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
 </ul>
 <br /><br />
 <p id="supported-validations"><b>Supported Validations</b></p>
+<p>The plug-in supports the following validations:</p>
 <table>
   <tr>
     <th>Validation Code</th>
