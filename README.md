@@ -56,6 +56,11 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <td></td>
   </tr>
   <tr>
+    <td><code>NATIVE_NUMBER_FIELD</code></td>
+    <td>Number field with optional min and max settings</td>
+    <td></td>
+  </tr>
+  <tr>
     <td><code>FUNC_BODY_RETURNING_BOOLEAN</code></td>
     <td>Function Body (returning Boolean)</td>
     <td></td>
