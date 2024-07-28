@@ -125,7 +125,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
   </tr>
 </table>
 <p>Notes:</p> 
-<p><sup>1)</sup> - <code>ITEM_REQUIRED</code> supports HTML5 client side validation.</p>
+<p><sup>1)</sup> - Supports HTML5 client side validation.</p>
 <p><sup>2)</sup> - MIN and MAX values (if provided) support HTML5 client side validation.</p>
 <p><sup>3)</sup> - The error text returned by the PL/SQL function body is returned by the plug-in in JSON object (<code>validationResult.message</code>) and if error rendering is turned on for the plug-in will be shown as error message.</p>
 <p><sup>4)</sup> - The date validity is checked with the "Application Date Format" (see Shared Components > Application Definition Attributes > Globalization) or if nothing specified with the <code>NLS_DATE_FORMAT</code> parameter of the database session.</p>
