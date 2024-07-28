@@ -48,11 +48,11 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <td>Expression</td>
   </tr>
   <tr>
-    <td><code>ITEM_REQUIRED</code></td>
+    <td><code>ITEM_REQUIRED<sup>1)</sup></code></td>
     <td>Value Required</td>
   </tr>
   <tr>
-    <td><code>NATIVE_NUMBER_FIELD</code></td>
+    <td><code>NATIVE_NUMBER_FIELD<sup>2)</sup> </code></td>
     <td>Number field with optional min and max settings</td>
   </tr>
   <tr>
@@ -60,7 +60,7 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <td>Function Body (returning Boolean)</td>
   </tr>
   <tr>
-    <td><code>FUNC_BODY_RETURNING_ERR_TEXT</code></td>
+    <td><code>FUNC_BODY_RETURNING_ERR_TEXT<sup>3)</sup></code></td>
     <td>Function Body (returning Error Text)</td>
   </tr>
   <tr>
@@ -124,6 +124,8 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <td>Item matches Regular Expression</td>
   </tr>
 </table>
+<p>1) - <code>ITEM_REQUIRED supports HTML5 client side validation.</code></p>
+<p>1) - <code>MIN and MAX values (if provided) support HTML5 client side validation.</code></p>
 <br /><br />
 <p id="validation"><b>Client Side vs Server Side Validation</b></p>
 <p>Some validations in APEX are implemented as <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation">HTML5 constraint validations</a>. A typical example is the <code>Value Required</code> flag you can set for a page item in the APEX builder:</p>
