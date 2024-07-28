@@ -27,6 +27,120 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
   <li>Short-circuit evaluation of validations (first validation error is immediatelly returned to client)</li>
 </ul>
 <br /><br />
+<p id="supported-validations"><b>Supported Validations</b></p>
+<table>
+  <tr>
+    <th>Validation Name</th>
+    <th>Validation Code</th>
+    <th>Comment</th>
+  </tr>
+  <tr>
+    <td><code>EXISTS</code></td>
+    <td>Rows returned</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>NOT_EXISTS</code></td>
+    <td>No Rows returned</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>EXPRESSION</code></td>
+    <td>Expression</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>FUNC_BODY_RETURNING_BOOLEAN</code></td>
+    <td>Function Body (returning Boolean)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>FUNC_BODY_RETURNING_ERR_TEXT</code></td>
+    <td>Function Body (returning Error Text)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>ITEM_NOT_NULL</code></td>
+    <td>Item is NOT NULL</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>ITEM_NOT_NULL_OR_ZERO</code></td>
+    <td>Item is NOT NULL or zero</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ITEM_IS_NOT_ZERO</code></td>
+    <td>Item is NOT zero</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>ITEM_CONTAINS_NO_SPACES</code></td>
+    <td>Item contains no spaces</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>ITEM_IS_ALPHANUMERIC</code></td>
+    <td>Item is alphanumeric</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>ITEM_IS_NUMERIC</code></td>
+    <td>Item is numeric</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>ITEM_IS_DATE</code></td>
+    <td>Item is a valid date</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>ITEM_IS_TIMESTAMP</code></td>
+    <td>Item is a valid timestamp</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>ITEM_IN_VALIDATION_EQ_STRING2</code></td>
+    <td>Item = Value</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>ITEM_IN_VALIDATION_NOT_EQ_STRING2</code></td>
+    <td>Item != Value</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>ITEM_IN_VALIDATION_IN_STRING2</code></td>
+    <td>Item is contained in Value</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>ITEM_IN_VALIDATION_NOT_IN_STRING2</code></td>
+    <td>Item is NOT contained in Value</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>ITEM_IN_VALIDATION_CONTAINS_ONLY_CHAR_IN_STRING2</code></td>
+    <td>Item contains only characters specified in Value </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>ITEM_IN_VALIDATION_CONTAINS_AT_LEAST_ONE_CHAR_IN_STRING2</code></td>
+    <td>Item contain at least one of the characters in Value</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>ITEM_IN_VALIDATION_CONTAINS_NO_CHAR_IN_STRING2</code></td>
+    <td>Item does NOT contain any of the characters in Value</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>REGULAR_EXPRESSION</code></td>
+    <td>Item matches Regular Expression</td>
+    <td></td>
+  </tr>
+</table>
+<br /><br />
 <p id="validation"><b>Client Side vs Server Side Validation</b></p>
 <p>Some validations in APEX are implemented as <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Constraint_validation">HTML5 constraint validations</a>. A typical example is the <code>Value Required</code> flag you can set for a page item in the APEX builder:</p>
 <img src="img/value_required_apex_builder.png" alt="Value required flag in APEX Builder" />
