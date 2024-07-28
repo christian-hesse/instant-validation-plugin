@@ -31,8 +31,8 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
 <p id="supported-validations"><b>Supported Validations</b></p>
 <table>
   <tr>
-    <th>Validation Name</th>
     <th>Validation Code</th>
+    <th>Validation Name</th>
     <th>Comment</th>
   </tr>
   <tr>
