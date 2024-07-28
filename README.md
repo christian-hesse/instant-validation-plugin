@@ -51,6 +51,11 @@ APEX validates page items in a submit process. If the page setting for <b>"Reloa
     <td></td>
   </tr>
   <tr>
+    <td><code>ITEM_REQUIRED</code></td>
+    <td>Value Required</td>
+    <td></td>
+  </tr>
+  <tr>
     <td><code>FUNC_BODY_RETURNING_BOOLEAN</code></td>
     <td>Function Body (returning Boolean)</td>
     <td></td>
