@@ -13,7 +13,9 @@
   "commercially_supported":"No",
   "author" : {
     "name" : "Christian Hesse",
-    "email" : "christian.hesse@postmeister.net"
+    "email" : "christian.hesse@postmeister.net",
+    "donationUrl" : "https://paypal.me/ChristianHesseDev",
+
   },
   "repository" : {
     "type" : "git",
