@@ -1,7 +1,7 @@
 {
   "name" : "Instant Validation Plugin",
   "version" : "1.0.0",
-  "description" : "The dynamic action plugin executes APEX page item validations triggered by any browser event (e.g. Change, Lose Focus) without submitting the page. The plugin was inspired by 'Pretius Client Side Validation' plug-in but turned out to be a complete rewrite. Special thanks to Ronny Weiss for inspiration to create the plug-in and supporting me in various fields of APEX :)",
+  "description" : "The dynamic action plugin executes APEX page item validations triggered by any browser event (e.g. Change, Lose Focus) without submitting the page. The plugin was inspired by 'Pretius Client Side Validation' plug-in but turned out to be a complete rewrite. Special thanks to Ronny Weiss for inspiration to create this plug-in and supporting me in various fields of APEX :)",
   "keywords" : ["validation", "client-side", "instant", "form"],
   "homepage" : "https://github.com/christian-hesse/instant-validation-plugin/",
   "bugs" : {
