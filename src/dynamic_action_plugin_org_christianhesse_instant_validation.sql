@@ -28,7 +28,7 @@ prompt APPLICATION 106 - Instant Item Validation
 -- Application Export:
 --   Application:     106
 --   Name:            Instant Item Validation
---   Date and Time:   04:54 Friday October 18, 2024
+--   Date and Time:   05:53 Friday October 18, 2024
 --   Exported By:     CHRIS
 --   Flashback:       0
 --   Export Type:     Component Export
@@ -79,9 +79,11 @@ wwv_flow_api.create_plugin(
 '        l_escaped_pattern := '']'' || replace(l_escaped_pattern, '']'', '''');',
 '    end if;',
 '   ',
-'    apex_debug.message(p_message => ''%s Escape Bracket Expression Result = %s'', ',
-'                       p0        => c_debug_msg_prefix, ',
-'                       p1        => nvl(l_escaped_pattern,''NULL''));',
+'    apex_debug.message(',
+'        p_message => ''%s Escape Bracket Expression Result = %s'', ',
+'        p0        => c_debug_msg_prefix, ',
+'        p1        => nvl(l_escaped_pattern,''NULL'')',
+'    );',
 '',
 '    return l_escaped_pattern;',
 '  ',
@@ -98,9 +100,11 @@ wwv_flow_api.create_plugin(
 '    l_item_value varchar2(32767);',
 'begin',
 '    l_item_value := v(p_item_name);',
-'    apex_debug.message(p_message => ''%s Item Value = %s'', ',
-'                       p0        => c_debug_msg_prefix, ',
-'                       p1        => nvl(l_item_value,''NULL''));',
+'    apex_debug.message(',
+'        p_message => ''%s Item Value = %s'', ',
+'        p0        => c_debug_msg_prefix, ',
+'        p1        => nvl(l_item_value,''NULL'')',
+'    );',
 '',
 '    return l_item_value;',
 'end get_item_value;',
@@ -200,11 +204,12 @@ wwv_flow_api.create_plugin(
 '                    l_validation_type := p_validation_type;',
 '            end case;        ',
 '               ',
-'            l_result := apex_plugin_util.is_component_used (',
+'            l_result := apex_plugin_util.is_component_used(',
 '                            p_authorization_scheme_id => null,',
 '                            p_condition_type          => l_validation_type,',
 '                            p_condition_expression1   => p_validation_expression1,',
-'                            p_condition_expression2   => p_validation_expression2);',
+'                            p_condition_expression2   => p_validation_expression2',
+'                        );',
 '               ',
 '        when l_validation_type = ''FUNC_BODY_RETURNING_ERR_TEXT'' then',
 '            l_func_result := apex_plugin_util.get_plsql_function_result(',
@@ -295,8 +300,10 @@ wwv_flow_api.create_plugin(
 '                when others then l_result := false;',
 '            end;',
 '        ',
-'        -- for native number fields check for numeric values using to_number()',
-'        -- and for mininmum and maximum value settings (if applicable)',
+'        -- For native number fields check for numeric values using to_number()',
+'        -- and for mininmum and maximum value settings (if applicable).',
+'        -- For backward compatibility (to APEX 21.2) we cannot use',
+'        -- apex_session_state.get_number() here. ',
 '        when l_validation_type = ''NATIVE_NUMBER_FIELD'' then',
 '            l_min_max_values := apex_string.split_numbers(',
 '                                    p_str => p_validation_expression2,',
