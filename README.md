@@ -9,6 +9,7 @@
   <li><a href="#settings">Plug-in Settings</a></li>   
   <li><a href="#events">Plug-in Browser Events</a></li>   
   <li><a href="#custom_error_rendering">Implementing Custom Error Rendering</a></li>   
+  <li><a href="#globalization">Globalization & Multi-language Support</a></li>
   
 </ul>
 <p id="intro"><b>Introduction</b></p>
@@ -273,6 +274,7 @@ $('#' + validationResult.item + '_error_placeholder').text('');
     <img src="img/Demo_Custom_Error_Rendering.gif" alt="plug-in Demo Custom Error Rendering" />
   </li>
 </ol>
+<p id="globalization"><b>Globalization & Multi-language Support</b></p>
 
 
 
