@@ -279,5 +279,7 @@ $('#' + validationResult.item + '_error_placeholder').text('');
 <img src="img/Globalization.png" alt="Globalization in Shared Components" />
 <p>Define for each validation a text message in all languages that your app supports. In the example below a text message <code>ITEM_IS_MULTIPLE_OF_10</code> was created for English (en) and German (de) language.</p>
 <img src="img/Text_Messages.png" alt="Text Messages" />
+<p>Don't forget to switch on the "Used in Javascript" Option</p>
+<img src="img/Define_Text_Message.png" alt="Define a Text Message" />
 
 
