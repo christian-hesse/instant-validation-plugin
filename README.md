@@ -277,7 +277,7 @@ $('#' + validationResult.item + '_error_placeholder').text('');
 <p id="globalization"><b>Globalization & Multi-language Support</b></p>
 <p>In order to use the plug-in in a multi-language application in APEX it is mandatory to define translateable text messages via <code>Shared Components</code> > <code>Globalization</code> > <code>Text Messages</code>.</p>
 <img src="img/Globalization.png" alt="Globalization in Shared Components" />
-Define for each validation a text message in all languages that your app supports. In the example below a text message <code>ITEM_IS_MULTIPLE_OF_10</code> was created for English (en) and German (de) language.
-
+<p>Define for each validation a text message in all languages that your app supports. In the example below a text message <code>ITEM_IS_MULTIPLE_OF_10</code> was created for English (en) and German (de) language.</p>
+<img src="img/Text_Messages.png" alt="Text Messages" />
 
 
