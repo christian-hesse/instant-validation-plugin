@@ -275,6 +275,8 @@ $('#' + validationResult.item + '_error_placeholder').text('');
   </li>
 </ol>
 <p id="globalization"><b>Globalization & Multi-language Support</b></p>
+<p>In order to use the plug-in in a multi-language application in APEX it is mandatory to define translatable text messages via Shared Components > Globlization > Text Messages.</p>
+<img src="img/Globalization.png" alt="Globalization in Shared Components" />
 
 
 
