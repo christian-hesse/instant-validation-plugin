@@ -281,10 +281,9 @@ $('#' + validationResult.item + '_error_placeholder').text('');
 <img src="img/Text_Messages.png" alt="Text Messages" />
 <p>Don't forget to switch on the "Used in Javascript" Option</p>
 <img src="img/Define_Text_Message.png" alt="Define a Text Message" />
-For the validation error message choose a text message by using the following APEX syntax: <code>&APP_TEXT$<ITEM_NAME>.</code>
-<div style="display: flex;">
-  <div><img src="img/Example_Validation1.png" alt="Example for a validation" /></div>
-  <div><img src="img/Example_Validation2.png" alt="Defintion of a validation" /></div>
-</div>
+<p>For the validation error message choose a text message by using the following APEX syntax: <code>&APP_TEXT$&lt;ITEM_NAME&gt;.</code></p>
+<p>In our example the text message is referenced with <code>&APP_TEXT$ITEM_IS_MULTIPLE_OF_10.</code>. Don't forget the trailing "."</p>
+<img src="img/Example_Validation1.png" alt="Example for a validation" />
+<img src="img/Example_Validation2.png" alt="Defintion of a validation" />
 
 
