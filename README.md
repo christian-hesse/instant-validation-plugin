@@ -289,8 +289,8 @@ $('#' + validationResult.item + '_error_placeholder').text('');
 <img src="img/Example_Validation1.png" alt="Example for a validation" />
 <img src="img/Example_Validation2.png" alt="Defintion of a validation" />
 <p>
-Also be aware that client side validations use Oracle internal text messages that need to be translated to any language of your app other than English (en).<br />
-A list a text messages that require tranaslation are always part of the APEX documention, e.g. for 23.2 you can find it <a href="https://docs.oracle.com/en/database/oracle/apex/23.2/htmdb/internal-messages-requiring-translation.html">here</a>.<br />
+Also be aware that client side validations use Oracle internal text messages that need to be translated to any language of your app other than English (en).
+A list a text messages that <b>require translation</b> are always part of the APEX documention, e.g. for 23.2 you can find it <a href="https://docs.oracle.com/en/database/oracle/apex/23.2/htmdb/internal-messages-requiring-translation.html">here</a>. Just search for "Internal Messages Requiring Translation" in the APEX documention of your APEX version.
 If you use the "Value Required" feature of a page item in the APEX builder a client side validation is done prior to the server side validation. In this case it is mandatory to translate the corresponding Oracle internal text message (<code>APEX.PAGE_ITEM_IS_REQUIRED</code>) to all languages of your application. To find the corresponding text message look up the documetion as mentioned above.
 </p>
 
