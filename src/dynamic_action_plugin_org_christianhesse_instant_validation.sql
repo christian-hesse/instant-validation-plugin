@@ -28,7 +28,7 @@ prompt APPLICATION 106 - Instant Item Validation
 -- Application Export:
 --   Application:     106
 --   Name:            Instant Item Validation
---   Date and Time:   05:53 Friday October 18, 2024
+--   Date and Time:   20:19 Friday March 21, 2025
 --   Exported By:     CHRIS
 --   Flashback:       0
 --   Export Type:     Component Export
@@ -513,7 +513,8 @@ wwv_flow_api.create_plugin(
 '            ',
 '            l_validation_type   := validation_rec.validation_type_code;',
 '            l_validation_passed := false;',
-'            l_validation_msg    := replace(validation_rec.validation_failure_text, ''#LABEL#'', l_label);',
+'            l_validation_msg    := replace(apex_plugin_util.replace_substitutions(',
+'                                            p_value => validation_rec.validation_failure_text), ''#LABEL#'', l_label);',
 '            ',
 '            -- stop further validation in case validation failed',
 '            exit;                         ',
@@ -538,7 +539,7 @@ wwv_flow_api.create_plugin(
 ,p_ajax_function=>'ajax_validation'
 ,p_substitute_attributes=>true
 ,p_subscribe_plugin_settings=>true
-,p_version_identifier=>'1.0.1'
+,p_version_identifier=>'1.0.2'
 ,p_about_url=>'https://github.com/christian-hesse/instant-validation-plugin'
 ,p_files_version=>84
 );
