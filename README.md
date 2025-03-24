@@ -293,7 +293,7 @@ Also be aware that client side validations use Oracle internal text messages tha
 A list of text messages that <b>require translation</b> are always part of the APEX documention, e.g. for 23.2 you can find it <a href="https://docs.oracle.com/en/database/oracle/apex/23.2/htmdb/internal-messages-requiring-translation.html">here</a>. Just search for "Internal Messages Requiring Translation" in the APEX documention of your APEX version.
 For example if you use the "Value Required" feature of a page item in the APEX builder a client side validation is done prior to the server side validation. In this case it is mandatory to translate the corresponding Oracle internal text message (<code>APEX.PAGE_ITEM_IS_REQUIRED</code>) to all languages of your application. To find the corresponding text message look up the documentation as mentioned above. Don't forget to switch on the "Used in JavaScript" option when defining the text message (as shown above).
 </p>
-> If you modify your application don't fort to seed and publish you application in all supported languages again!
+<p><span style="background-color:grey; padding: 5px;">If you modify your application don't fort to seed and publish you application in all supported languages again!</span></p>
 <p>Here is a demo of the plug-in using validation error messages in multiple languages.</p>
 <img src="img/Demo_Translated_Validation_Error_Msg.gif" alt="Demo of instant validation with error messages in multiple languages" />
 
