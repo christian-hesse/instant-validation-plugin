@@ -282,7 +282,7 @@ $('#' + validationResult.item + '_error_placeholder').text('');
 <p>Don't forget to switch on the "Used in JavaScript" Option</p>
 <img src="img/Define_Text_Message.png" alt="Define a Text Message" />
 <p>
-  For the validation error message choose a text message by using the following APEX syntax: <code>&APP_TEXT$&lt;<i>ITEM_NAME</i>&gt;.</code><br />
+  For the validation error message choose a text message by using the following APEX syntax: <code>&APP_TEXT$&lt;<i>TEXT_MESSAGE_NAME</i>&gt;.</code><br />
   An excellent blog post about text messages was written by Philipp Hartenfeller: <a href="https://hartenfeller.dev/blog/oracle-apex-text-messages" target="_blank">Reusable, and Translatable: Oracle APEX Text Messages</a>
 </p> 
 <p>In our example the text message is referenced with <code>&APP_TEXT$ITEM_IS_MULTIPLE_OF_10.</code> and don't forget the trailing dot (".")</p>
